@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1750" height="1180" viewBox="0 0 1750 1180" font-family="Helvetica,Arial,sans-serif">
+  <rect width="1750" height="1180" fill="#ffffff"/>
+
+  <text x="44" y="50" font-size="28" font-weight="bold" fill="#1a1a1a">Kayak Cradles &#8212; Cutting Layout (both cradles)</text>
+  <text x="44" y="76" font-size="16" fill="#555">Old Town Sportsman 106 PDL &#183; all parts 2&#215;4 (actual 1&#189;&quot; &#215; 3&#189;&quot;)</text>
+  <line x1="44" y1="92" x2="1706" y2="92" stroke="#ddd" stroke-width="1"/>
+
+  <!-- BUY box -->
+  <rect x="44" y="112" width="620" height="66" rx="7" fill="#eef4ea" stroke="#5a7d4f" stroke-width="1.6"/>
+  <text x="68" y="153" font-size="22" font-weight="bold" fill="#2f5227">BUY:  6 &#215; 8&#8209;ft (96&quot;) 2&#215;4</text>
+  <text x="700" y="136" font-size="14.5" fill="#555">Stud-grade SPF/DF is fine for indoor/garage storage.</text>
+  <text x="700" y="158" font-size="14.5" fill="#555">Ground-contact pressure-treated or cedar if it lives outdoors.</text>
+
+  <!-- brace detail sketch -->
+  <text x="1240" y="128" font-size="18" font-weight="bold" fill="#1a1a1a">V-brace = a right trapezoid, NOT a parallelogram</text>
+  <g transform="translate(1240 148)">
+    <!-- true trapezoid, derived from the real geometry: bottom cut horizontal,
+         top cut vertical, the two long edges parallel to each other at 45 deg
+         (thickness exaggerated here for legibility) -->
+    <polygon points="40,140 62,140 161,41 161,19" fill="#d9b483" stroke="#8a5f30" stroke-width="2"/>
+    <line x1="40" y1="140" x2="62" y2="140" stroke="#c0392b" stroke-width="4"/>
+    <line x1="161" y1="41" x2="161" y2="19" stroke="#c0392b" stroke-width="4"/>
+    <line x1="10" y1="140" x2="40" y2="140" stroke="#5a7d4f" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="10" y="132" font-size="11.5" fill="#5a7d4f">rail</text>
+    <line x1="161" y1="19" x2="161" y2="-14" stroke="#5a7d4f" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="166" y="-4" font-size="11.5" fill="#5a7d4f">post</text>
+    <text x="180" y="90" font-size="14" fill="#333">25&#190;&quot; long edge</text>
+    <text x="0" y="160" font-size="12.5" fill="#333">Both cuts are 45&#176; to the board's length, but</text>
+    <text x="0" y="178" font-size="12.5" fill="#333">PERPENDICULAR to each other &#8212; one horizontal</text>
+    <text x="0" y="196" font-size="12.5" fill="#333">(seats on the rail), one vertical (flush on the post).</text>
+    <text x="0" y="222" font-size="13" fill="#c0392b" font-weight="bold">Cut one end, FLIP the board end-for-end, then cut</text>
+    <text x="0" y="240" font-size="13" fill="#c0392b" font-weight="bold">the other end at the same 45&#176; &#8212; unflipped gives a</text>
+    <text x="0" y="258" font-size="13" fill="#c0392b" font-weight="bold">parallelogram, which won't sit flush on both.</text>
+  </g>
+
+  <!-- ============ CUTTING LAYOUT ============ -->
+  <g transform="translate(0 60)">
+  <text x="44" y="372" font-size="19" font-weight="bold" fill="#1a1a1a">Cutting layout &#8212; 6 boards, each 96&quot;  (grey = offcut)</text>
+
+  <!-- ruler : scale 15 px / inch, x0 = 190 -->
+  <g font-size="12" fill="#999">
+    <line x1="190" y1="392" x2="1630" y2="392" stroke="#ddd" stroke-width="1"/>
+    <line x1="190"  y1="387" x2="190"  y2="397" stroke="#bbb"/><text x="190" y="386" text-anchor="middle">0</text>
+    <line x1="550"  y1="387" x2="550"  y2="397" stroke="#bbb"/><text x="550" y="386" text-anchor="middle">24</text>
+    <line x1="910"  y1="387" x2="910"  y2="397" stroke="#bbb"/><text x="910" y="386" text-anchor="middle">48</text>
+    <line x1="1270" y1="387" x2="1270" y2="397" stroke="#bbb"/><text x="1270" y="386" text-anchor="middle">72</text>
+    <line x1="1630" y1="387" x2="1630" y2="397" stroke="#bbb"/><text x="1630" y="386" text-anchor="middle">96 in</text>
+  </g>
+
+  <!-- Board 1 : Post | Post | Post -->
+  <g transform="translate(0 410)">
+    <text x="44" y="34" font-size="15" font-weight="bold" fill="#333">Board 1</text>
+    <rect x="190" y="4" width="1440" height="54" fill="#d9b483" stroke="#8a5f30" stroke-width="1.8"/>
+    <rect x="1530" y="4" width="100" height="54" fill="#cfcfcf"/>
+    <line x1="640"  y1="4" x2="640"  y2="58" stroke="#333" stroke-width="2.2"/>
+    <line x1="1090" y1="4" x2="1090" y2="58" stroke="#333" stroke-width="2.2"/>
+    <line x1="1530" y1="4" x2="1530" y2="58" stroke="#333" stroke-width="2.2"/>
+    <text x="415"  y="37" text-anchor="middle" font-size="16" fill="#222">Post 30&quot;</text>
+    <text x="865"  y="37" text-anchor="middle" font-size="16" fill="#222">Post 30&quot;</text>
+    <text x="1310" y="37" text-anchor="middle" font-size="16" fill="#222">Post 30&quot;</text>
+    <text x="1580" y="35" text-anchor="middle" font-size="13" fill="#777">6&quot;</text>
+  </g>
+
+  <!-- Board 2 : Post | Foot | Foot -->
+  <g transform="translate(0 480)">
+    <text x="44" y="34" font-size="15" font-weight="bold" fill="#333">Board 2</text>
+    <rect x="190" y="4" width="1440" height="54" fill="#d9b483" stroke="#8a5f30" stroke-width="1.8"/>
+    <rect x="1530" y="4" width="100" height="54" fill="#cfcfcf"/>
+    <line x1="640"  y1="4" x2="640"  y2="58" stroke="#333" stroke-width="2.2"/>
+    <line x1="1090" y1="4" x2="1090" y2="58" stroke="#333" stroke-width="2.2"/>
+    <line x1="1530" y1="4" x2="1530" y2="58" stroke="#333" stroke-width="2.2"/>
+    <text x="415"  y="37" text-anchor="middle" font-size="16" fill="#222">Post 30&quot;</text>
+    <text x="865"  y="37" text-anchor="middle" font-size="16" fill="#222">Foot 30&quot;</text>
+    <text x="1310" y="37" text-anchor="middle" font-size="16" fill="#222">Foot 30&quot;</text>
+    <text x="1580" y="35" text-anchor="middle" font-size="13" fill="#777">6&quot;</text>
+  </g>
+
+  <!-- Board 3 : Foot | Foot | (big offcut) -->
+  <g transform="translate(0 550)">
+    <text x="44" y="34" font-size="15" font-weight="bold" fill="#333">Board 3</text>
+    <rect x="190" y="4" width="1440" height="54" fill="#d9b483" stroke="#8a5f30" stroke-width="1.8"/>
+    <rect x="1090" y="4" width="540" height="54" fill="#cfcfcf"/>
+    <line x1="640"  y1="4" x2="640"  y2="58" stroke="#333" stroke-width="2.2"/>
+    <line x1="1090" y1="4" x2="1090" y2="58" stroke="#333" stroke-width="2.2"/>
+    <text x="415" y="37" text-anchor="middle" font-size="16" fill="#222">Foot 30&quot;</text>
+    <text x="865" y="37" text-anchor="middle" font-size="16" fill="#222">Foot 30&quot;</text>
+    <text x="1360" y="37" text-anchor="middle" font-size="13" fill="#777">36&quot; offcut &#8594; gussets / pads</text>
+  </g>
+
+  <!-- Board 4 : Rail | Rail | offcut -->
+  <g transform="translate(0 620)">
+    <text x="44" y="34" font-size="15" font-weight="bold" fill="#333">Board 4</text>
+    <rect x="190" y="4" width="1440" height="54" fill="#d9b483" stroke="#8a5f30" stroke-width="1.8"/>
+    <rect x="1278" y="4" width="352" height="54" fill="#cfcfcf"/>
+    <line x1="738"  y1="4" x2="738"  y2="58" stroke="#333" stroke-width="2.2"/>
+    <line x1="1278" y1="4" x2="1278" y2="58" stroke="#333" stroke-width="2.2"/>
+    <text x="464"  y="37" text-anchor="middle" font-size="16" fill="#222">Bottom rail 36&#189;&quot;</text>
+    <text x="1008" y="37" text-anchor="middle" font-size="16" fill="#222">Bottom rail 36&#189;&quot;</text>
+    <text x="1454" y="37" text-anchor="middle" font-size="13" fill="#777">~23&quot; offcut</text>
+  </g>
+
+  <!-- Board 5 : Stretcher | Brace | Brace -->
+  <g transform="translate(0 690)">
+    <text x="44" y="34" font-size="15" font-weight="bold" fill="#333">Board 5</text>
+    <rect x="190" y="4" width="1440" height="54" fill="#d9b483" stroke="#8a5f30" stroke-width="1.8"/>
+    <rect x="1553" y="4" width="77" height="54" fill="#cfcfcf"/>
+    <line x1="783" y1="4" x2="783" y2="58" stroke="#333" stroke-width="2.2"/>
+    <line x1="783"  y1="58" x2="828"  y2="4" stroke="#c0392b" stroke-width="3"/>
+    <line x1="1167" y1="58" x2="1212" y2="4" stroke="#c0392b" stroke-width="3"/>
+    <line x1="1553" y1="58" x2="1598" y2="4" stroke="#c0392b" stroke-width="3"/>
+    <text x="486"  y="37" text-anchor="middle" font-size="16" fill="#222">Foot stretcher 39&#189;&quot;</text>
+    <text x="995"  y="37" text-anchor="middle" font-size="15" fill="#222">V-brace</text>
+    <text x="1380" y="37" text-anchor="middle" font-size="15" fill="#222">V-brace</text>
+    <text x="1592" y="35" text-anchor="middle" font-size="13" fill="#777">~5&quot;</text>
+  </g>
+
+  <!-- Board 6 : Stretcher | Brace | Brace -->
+  <g transform="translate(0 760)">
+    <text x="44" y="34" font-size="15" font-weight="bold" fill="#333">Board 6</text>
+    <rect x="190" y="4" width="1440" height="54" fill="#d9b483" stroke="#8a5f30" stroke-width="1.8"/>
+    <rect x="1553" y="4" width="77" height="54" fill="#cfcfcf"/>
+    <line x1="783" y1="4" x2="783" y2="58" stroke="#333" stroke-width="2.2"/>
+    <line x1="783"  y1="58" x2="828"  y2="4" stroke="#c0392b" stroke-width="3"/>
+    <line x1="1167" y1="58" x2="1212" y2="4" stroke="#c0392b" stroke-width="3"/>
+    <line x1="1553" y1="58" x2="1598" y2="4" stroke="#c0392b" stroke-width="3"/>
+    <text x="486"  y="37" text-anchor="middle" font-size="16" fill="#222">Foot stretcher 39&#189;&quot;</text>
+    <text x="995"  y="37" text-anchor="middle" font-size="15" fill="#222">V-brace</text>
+    <text x="1380" y="37" text-anchor="middle" font-size="15" fill="#222">V-brace</text>
+    <text x="1592" y="35" text-anchor="middle" font-size="13" fill="#777">~5&quot;</text>
+  </g>
+
+  <g font-size="14">
+    <rect x="190" y="850" width="26" height="16" fill="#d9b483" stroke="#8a5f30"/>
+    <text x="224" y="863" fill="#333">board / usable piece</text>
+    <rect x="430" y="850" width="26" height="16" fill="#cfcfcf"/>
+    <text x="464" y="863" fill="#333">offcut (keep for gussets, post-top pads, mistakes)</text>
+    <line x1="900" y1="858" x2="930" y2="858" stroke="#c0392b" stroke-width="3"/>
+    <text x="940" y="863" fill="#333">45&#176; bevel cut</text>
+    <line x1="1110" y1="850" x2="1110" y2="866" stroke="#333" stroke-width="2.2"/>
+    <text x="1122" y="863" fill="#333">square cut</text>
+  </g>
+
+  <!-- ============ NOTES ============ -->
+  <text x="44" y="912" font-size="19" font-weight="bold" fill="#1a1a1a">Notes</text>
+  <g font-size="15" fill="#333">
+    <text x="44" y="940">&#8226;  16 pieces &#8776; 42 board-feet; 6 boards give ~48 ft. This is one way to split them &#8212; any grouping that fits 96&quot; works.</text>
+    <text x="44" y="966">&#8226;  V-brace: set the saw to 45&#176;, cut one end, FLIP the board end-for-end, cut the other end &#8212; 25&#190;&quot; apart on the long edge. It's a right trapezoid (perpendicular cuts), not a parallelogram.</text>
+    <text x="44" y="992">&#8226;  Cut the square pieces first, then fit one V-brace against a built frame and trim to suit; use it as the pattern for the other 3.</text>
+    <text x="44" y="1018">&#8226;  Feet are not centred &#8212; set each one 1&quot; inboard so its outer edge is flush with the post &amp; rail (it overhangs 2&quot; on the inside).</text>
+    <text x="44" y="1044">&#8226;  Put any crown (the slight bow in a board) UP on the feet and the rail.</text>
+    <text x="44" y="1070">&#8226;  Assembly order: feet flat on the ground, 38&quot; on centre &#8594; rail screwed to the feet &#8594; posts stood up on the feet (flush with the outer edge) &#8594; V-braces &#8594; stretcher &#8594; sling.</text>
+  </g>
+  </g>
+</svg>
